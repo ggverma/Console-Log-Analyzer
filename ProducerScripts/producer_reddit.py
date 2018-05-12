@@ -49,9 +49,9 @@ class Producer_Reddit():
         self.logger = logger
 
         # Reddit credentials
-        CLIENT_ID       =     '38gAflblSmQ8Hg'
-        CLIENT_SECRET   =     '51dXwzp-MEmt8x1Zg6qeUM8pucY'
-        USER_AGENT      =     'NCSU/DICProject by Team-8'
+        CLIENT_ID       =     None
+        CLIENT_SECRET   =     None
+        USER_AGENT      =     None
 
         # Reddit Controller
         self.reddit = praw.Reddit(client_id = CLIENT_ID, client_secret = CLIENT_SECRET, user_agent = USER_AGENT)
